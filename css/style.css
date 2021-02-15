@@ -1,26 +1,28 @@
-/*$secondary: #2daae1;*/
 body {
   margin-top: 105px;
   font-family: "Roboto", sans-serif; }
 
 .navbar {
-  box-shadow: 2px 2px 5px #2d2e82;
+  /*box-shadow: 2px 2px 5px $primary;*/
+  border-bottom: 5px solid;
+  border-image-source: linear-gradient(to right, #2e2f81, #00a19a);
+  border-image-slice: 1;
   opacity: 0.9;
   background: #fff; }
   .navbar .nav-item {
     font-size: 1.4rem;
     padding-right: 1.4rem; }
     .navbar .nav-item .active {
-      border-bottom: 2px #12a19a solid;
-      color: #12a19a !important; }
+      border-bottom: 2px #00a19a solid;
+      color: #00a19a !important; }
     .navbar .nav-item .nav-link:hover {
-      color: #2d2e82; }
+      color: #2e2f81; }
 
 .carousel-item {
   height: 450px; }
 
 .carousel-image-1 {
-  background: url("../img/praktijk-1.jpg") no-repeat center center/cover; }
+  background: url("../img/shutterstock_269313245.jpg") no-repeat center center/cover; }
 
 .carousel-image-2 {
   background: url("../img/praktijk-1.jpg") no-repeat center center/cover; }
@@ -29,7 +31,7 @@ body {
   background: url("../img/praktijk-1.jpg") no-repeat center center/cover; }
 
 .carousel-indicators .active {
-  background-color: #2d2e82; }
+  background-color: #2e2f81; }
 
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232d2e82' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); }
@@ -38,4 +40,4 @@ body {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232d2e82' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); }
 
 #artsen li {
-  border-color: #12a19a; }
+  border-color: #00a19a; }

@@ -1,4 +1,4 @@
-/*$secondary: #12a19a;*/
+/*$secondary: #2daae1;*/
 body {
   margin-top: 105px;
   font-family: "Roboto", sans-serif; }
@@ -11,8 +11,8 @@ body {
     font-size: 1.4rem;
     padding-right: 1.4rem; }
     .navbar .nav-item .active {
-      border-bottom: 2px #2daae1 solid;
-      color: #2daae1 !important; }
+      border-bottom: 2px #12a19a solid;
+      color: #12a19a !important; }
     .navbar .nav-item .nav-link:hover {
       color: #2d2e82; }
 
@@ -38,4 +38,4 @@ body {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232d2e82' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); }
 
 #artsen li {
-  border-color: #2daae1; }
+  border-color: #12a19a; }

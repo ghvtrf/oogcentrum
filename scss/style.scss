@@ -20,7 +20,7 @@ body {
 
     .active {
       border-bottom: 2px $secondary solid;
-      color: $secondary !important;
+      color: $primary !important;
     }
     .nav-link:hover {
       color: $primary;
@@ -59,4 +59,8 @@ body {
 
 #artsen li {
   border-color: $secondary;
+}
+
+#main-footer {
+  background-image: linear-gradient(to right, $primary, $secondary);
 }

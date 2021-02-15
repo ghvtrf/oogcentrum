@@ -14,7 +14,7 @@ body {
     padding-right: 1.4rem; }
     .navbar .nav-item .active {
       border-bottom: 2px #00a19a solid;
-      color: #00a19a !important; }
+      color: #2e2f81 !important; }
     .navbar .nav-item .nav-link:hover {
       color: #2e2f81; }
 
@@ -41,3 +41,6 @@ body {
 
 #artsen li {
   border-color: #00a19a; }
+
+#main-footer {
+  background-image: linear-gradient(to right, #2e2f81, #00a19a); }

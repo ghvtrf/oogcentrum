@@ -1,6 +1,7 @@
 body {
   margin-top: 105px;
-  font-family: "Roboto", sans-serif; }
+  /*font-family: "Roboto", sans-serif;*/
+  font-family: "freight-micro-pro", serif; }
 
 .navbar {
   /*box-shadow: 2px 2px 5px $primary;*/

@@ -49,13 +49,73 @@
         <div class="col">
           <div class="contact-header mb-5">
             <h1 class="text-primary pb-3">Contact</h1>
-            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus porro fugit quaerat aspernatur deleniti dolore, adipisci autem quas. Qui praesentium ratione magnam modi dignissimos delectus enim est adipisci facilis quibusdam!</p>
+            <p class="lead">Het Oogcentrum Zwevegem bevindt zich op Leanderhof in het centrum van Zwevegem.
+              Het is vlot bereikbaar en er is parkeergelegenheid nabij.</p>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6 px-auto mb-5">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.911251130535!2d3.3380216157446227!3d50.81428297952727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c33cc0b98da663%3A0x78081afa9240dcc4!2sBekaertstraat%202b%2C%208550%20Zwevegem!5e0!3m2!1snl!2sbe!4v1614286868820!5m2!1snl!2sbe" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="col-md-6 mb-5">
+          <h3 class="text-secondary">Openingsuren</h3>
+          <div class="table-responsive">
+            <table class="table table-borderless">
+                <thead class="text-primary">
+                    <tr>
+                        <th></th>
+                        <th>Voormiddag</th>
+                        <th>Namiddag</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="day1">
+                      <th scope="row" class="text-primary">Maandag</th>
+                      <td>08:30 - 12:30</td>
+                      <td>13:30 - 17:30</td>
+                    </tr>
+                    <tr id="day2">
+                      <th scope="row" class="text-primary">Dinsdag</th>
+                      <td>08:30 - 12:30</td>
+                      <td>13:30 - 17:30</td>
+                    </tr>
+                    <tr id="day3">
+                      <th scope="row" class="text-primary">Woensdag</th>
+                      <td></td>
+                      <td>13:30 - 17:30</td>
+                    </tr>
+                    <tr id="day4">
+                      <th scope="row" class="text-primary">Donderdag</th>
+                      <td>08:30 - 12:30</td>
+                      <td>13:30 - 17:30</td>
+                    </tr>
+                    <tr id="day5">
+                      <th scope="row" class="text-primary">Vrijdag</th>
+                      <td>08:30 - 12:30</td>
+                      <td>13:30 - 17:30</td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 my-4 text-center">
+          <i class="fas fa-map-marker-alt fa-3x text-secondary pb-2"></i>
+          <h4>Adres</h4>
+          <p>Bekaertstraat 2B Zwevegem</p>
+        </div>
+        <div class="col-md-4 my-4 text-center">
+          <i class="fas fa-phone fa-3x text-secondary pb-2"></i>
+          <h4>Telefoon</h4>
+          <a href="tel:+3256123007" class="text-primary">056 123 007</a>
+        </div>
+        <div class="col-md-4 my-4 text-center">
+          <i class="far fa-envelope fa-3x text-secondary pb-2"></i>
+          <h4>Email</h4>
+          <a href="mailto:info@oogcentrumzwevegem.be" class="text-primary">info@oogcentrumzwevegem.be</a>
         </div>
       </div>
       
@@ -85,6 +145,15 @@
   <script>
     // get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+    // highlight current day
+    $(document).ready(function() {
+      var day = new Date();
+      var checkday = "day" + day.getDay();
+      var element = document.getElementById(checkday);
+      element.classList.add("text-secondary");
+
+    })
   </script>
 
 </body>

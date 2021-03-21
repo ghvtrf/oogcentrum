@@ -19,6 +19,9 @@ body {
     .navbar .nav-item .nav-link:hover {
       color: #2e2f81; }
 
+h1 {
+  font-family: "antrasteregular"; }
+
 .carousel-item {
   height: 450px; }
 

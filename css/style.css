@@ -55,3 +55,20 @@ h1,
 
 #main-footer {
   background-image: linear-gradient(to right, #2e2f81, #00a19a); }
+
+/* adjust images on large screens */
+@media (min-width: 1000px) {
+  .carousel-item {
+    height: 600px; }
+
+  .carousel-image-2 {
+    background-image: url("../img/oogcentrum-zwevegem-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -150px; }
+
+  .carousel-image-3 {
+    background-image: url("../img/oogcentrum-zwevegem-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -100px; } }
